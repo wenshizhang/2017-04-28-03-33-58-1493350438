@@ -28,9 +28,9 @@ public class BowlingGame {
                 int temp = (len == 10 ? len : len - 1);
                 for (int i = 0; i < temp; i++) {
                         if (cores[i].length() == 1) {
-                                if (scores[i + 1][0] == 10 && i+2<temp)
+                                if (scores[i + 1][0] == 10 && i+2<len)
                                         sum += 10 + scores[i + 1][0] + scores[i + 2][0];
-                                else if(i+1<temp)
+                                else if(i+1<len)
                                         sum += 10 + scores[i + 1][0] + scores[i + 1][1];
                         } else { 
                                 if (scores[i][0] + scores[i][1] == 10 && i + 1 < len) {
