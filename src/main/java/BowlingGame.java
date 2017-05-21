@@ -62,8 +62,5 @@ public class BowlingGame {
                 return res;
         }
     }
-
-
-        return 0;
-    }
+    
 }
