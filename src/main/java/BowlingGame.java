@@ -25,7 +25,7 @@ public class BowlingGame {
                         }
                 }
 
-                int temp = len == 10 ? len : len - 1;
+                int temp = (len == 10 ? len : len - 1);
                 for (int i = 0; i < temp; i++) {
                         if (cores[i].length() == 1) {
                                 if (scores[i + 1][0] == 10 && i+2<temp)
